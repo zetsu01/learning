@@ -16,9 +16,9 @@ def carre(taille):
         t.speed(10)
 
 t = turtle.Turtle()
-#escalier(30, 20, 90)
+# escalier(30, 20, 90)
 a = 50
-for i in range(0, 100):
+for i in range(0, 50):
     carre(a)
-    a = a+2
+    a = a+5
 turtle.done()
